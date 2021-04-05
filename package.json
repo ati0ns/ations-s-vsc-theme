@@ -1,0 +1,21 @@
+{
+    "name": "ations-s-theme",
+    "displayName": "ations's theme",
+    "description": "Idk.",
+    "version": "0.0.1",
+    "engines": {
+        "vscode": "^1.51.0"
+    },
+    "categories": [
+        "Themes"
+    ],
+    "contributes": {
+        "themes": [
+            {
+                "label": "ations's theme",
+                "uiTheme": "vs-dark",
+                "path": "./themes/ations's theme-color-theme.json"
+            }
+        ]
+    }
+}

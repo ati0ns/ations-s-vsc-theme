@@ -1,0 +1,66 @@
+{
+	"name": "ations's theme",
+	"type": "dark",
+	"colors": {
+		"editor.background": "#55464d",
+		"editor.foreground": "#ffd4e8",
+		"activityBarBadge.background": "#ff0077",
+		"sideBarTitle.foreground": "#a605b4"
+	},
+	"tokenColors": [{
+		"name": "JS Comment",
+		"scope": ["comment", "punctuation.definition.comment"],
+		"settings": { "fontStyle": "italic", "foreground": "#a58f98" }
+	}, {
+		"name": "JS Storage type & Function declaration",
+		"scope": ["storage.type.js", "storage.type.function.js"],
+		"settings": { "foreground": "#001aff" }
+	}, {
+		"name": "JS Const name",
+		"scope": ["variable.other.constant.js"],
+		"settings": { "foreground": "#5566ff" }
+	}, {
+		"name": "JS Let/Var name",
+		"scope": ["variable.other.readwrite.js", "variable.parameter.js"],
+		"settings": { "foreground": "#808cff" }
+	}, {
+		"name": "JS Function name",
+		"scope": ["entity.name.function.js", "storage.type.function.arrow.js"],
+		"settings": { "foreground": "#c4db40" }
+	}, {
+		"name": "JS Strings",
+		"scope": ["string.quoted.double.js", "string.quoted.single.js", "string.template.js"],
+		"settings": { "foreground": "#ff0077" }
+	}, {
+		"name": "JS Template strings variables",
+		"scope": ["punctuation.definition.template-expression.js"],
+		"settings": { "foreground": "#9d01ac" }
+	}, {
+		"name": "JS Constants",
+		"scope": ["constant.language.js"],
+		"settings": { "foreground": "#000000" }
+	}, {
+		"name": "JS Objects",
+		"scope": ["variable.other.object.js"],
+		"settings": { "foreground": "#eb2020" }
+	}, {
+		"name": "JS Numbers",
+		"scope": ["constant.numeric.decimal.js"],
+		"settings": { "foreground": "#5eeb65" }
+	}, {
+		"name": "JSON Properties",
+		"scope": ["support.type.property-name.json"],
+		"settings": { "foreground": "#f06f24" }
+	}, {
+		"name": "JSON Values",
+		"scope": ["string.quoted.double.json", "string.quoted.single.json"],
+		"settings": { "foreground": "#5264ff" }
+	}]
+}
+
+// basic pink #ff0077
+// basic purple #8d0099
+// basic blue #001aff
+// basic yellow #c4db40
+// basic orange #f06f24
+// basic lime #8ceb20
